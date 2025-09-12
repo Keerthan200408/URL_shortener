@@ -1,0 +1,64 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build directories
+build/
+dist/
+.next/
+.nuxt/
+
+# Logs
+logs/
+*.log
+
+# Runtime data and cache
+.npm
+.cache
+.parcel-cache
+.fusebox/
+.nyc_output
+coverage/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Application specific - URL Shortener
+backend/urls.json
+backend/uploads/
+backend/temp/
+backend/.tmp/
+
+# Optional files
+.yarn-integrity
+.node_repl_history
+*.tgz
